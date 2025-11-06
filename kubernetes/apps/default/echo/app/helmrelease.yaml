@@ -69,3 +69,9 @@ spec:
           - backendRefs:
               - identifier: app
                 port: *port
+            filters:
+              - type: ResponseHeaderModifier
+                responseHeaderModifier:
+                  add:
+                    - name: Content-Type
+                      value: application/json
