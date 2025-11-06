@@ -85,3 +85,7 @@ spec:
                       value: "nosniff"
                     - name: Cache-Control
                       value: "no-cache, no-store, must-revalidate"
+                    - name: X-Frame-Options
+                      value: "DENY"
+                    - name: X-XSS-Protection
+                      value: "1; mode=block"
