@@ -13,4 +13,4 @@ resources:
   - ./metrics-server/ks.yaml
   - ./reloader/ks.yaml
   - ./spegel/ks.yaml
-  - ./kubletet-csr-approver/ks.yaml
+  - ./kubelet-csr-approver/ks.yaml
