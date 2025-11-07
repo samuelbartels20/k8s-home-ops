@@ -6,6 +6,7 @@ namespace: kube-system
 
 resources:
   - helmrelease.yaml
+  - helmrepository.yaml
   # - prometheusrule.yaml
   # - poddisruptionbudget.yaml
 
